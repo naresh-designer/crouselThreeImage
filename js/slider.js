@@ -10,9 +10,9 @@ arrowsIcons.forEach((icon) => {
   icon.addEventListener("click", () => {
     // slide.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth;
     if (icon.id == "left") {
-      slide.scrollLeft += firstImgWidth;
-    } else {
       slide.scrollLeft -= firstImgWidth;
+    } else {
+      slide.scrollLeft += firstImgWidth;
     }
   });
 });
