@@ -46,6 +46,7 @@ body{
     font-size: 0;
     cursor: pointer;
     overflow: hidden;
+    scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 }
 .slide img{
